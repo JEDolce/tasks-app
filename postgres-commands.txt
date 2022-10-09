@@ -1,0 +1,16 @@
+sudo service postgresql status => for checking the status of your database
+sudo service postgresql start => to start running your database
+sudo service postgresql stop => to stop running your database
+
+To run PostgreSQL with psql shell:
+1) Start your postgres service: sudo service postgresql start
+2) Connect to the postgres service and open the psql shell: sudo -u postgres psql
+
+To exit postgres=# enter: \q or use the shortcut key: Ctrl+D
+
+Desde el comando de postgres:
+
+- Para listar las bases de datos => \l
+- Para conectarse a una db => \c "nombre_de_la_db"
+- Crear tabla => CREATE TABLE "nombre"(pasar_filas_de_tabla) y pasar la tabla
+- SELECT * FROM "nombre-de-la-db" para ver contenido
